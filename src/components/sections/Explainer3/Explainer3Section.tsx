@@ -1,114 +1,84 @@
+import PieChartIcon from "@/components/icons/PieChartIcon";
 import styles from "./Explainer3Section.module.scss";
+import Animated48b from "@/components/icons/48b";
+import UserIcon from "@/components/icons/UserIcon";
+import CogIcon from "@/components/icons/CogIcon";
+import CapitalEfficientIcon from "@/components/icons/CapitalEfficientIcon";
 
 export default function Explainer3Section() {
+  const renderCoreBenefits = () => {
+    return [
+      {
+        icon: <PieChartIcon />,
+        label: "Risk Management",
+        description:
+          "Modern Portfolio Theory implementation with continuous monitoring.",
+      },
+      {
+        icon: <UserIcon />,
+        label: "Compliance Ready",
+        description:
+          "Transparent reserves third-party attestations, jurisdiction diversification.",
+      },
+      {
+        icon: <CogIcon />,
+        label: "Operational Excellence",
+        description:
+          "Multi-sig custody, 24/7 monitoring, comprehensive audit trails.",
+      },
+      {
+        icon: <CapitalEfficientIcon />,
+        label: "Capital Efficiency",
+        description: "Risk-adjusted returns with instant liquidity.",
+      },
+    ].map(({ icon, label, description }) => (
+      <div key={label} className={styles.coreBenefitContainer}>
+        {icon}
+        <div>
+          <span>{label}</span>
+          <p>{description}</p>
+        </div>
+      </div>
+    ));
+  };
+
   return (
     <section id="for-institutions" className={styles.section}>
-      {/* Overlay for bottom half */}
-      <div className={styles.overlay}></div>
-
       <div className={styles.container}>
-        <div className={styles.grid}>
-          {/* Left Side - Content */}
-          <div className={styles.leftContent}>
-            <span className={styles.badge}>FOR INSTITUTIONS</span>
-
-            <h2 className={styles.title}>
-              Institutional-Grade Structured Stability
-            </h2>
-
-            <p className={styles.subtitle}>
-              Professional digital asset reserves with quantified risk
-              management.
-            </p>
-          </div>
-
-          {/* Right Side - Key Metrics */}
-          <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-primary">KEY METRICS:</h3>
-
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white mb-2">99.9%</div>
-                <div className="text-gray-400 text-sm">Uptime</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white mb-2">$50M+</div>
-                <div className="text-gray-400 text-sm">TVL</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white mb-2">24/7</div>
-                <div className="text-gray-400 text-sm">Monitoring</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white mb-2">AAA</div>
-                <div className="text-gray-400 text-sm">Rating</div>
-              </div>
+        <div className={styles.innerContainer}>
+          <div className={styles.topRow}>
+            <div>
+              <h3 className={styles.title}>
+                Institutional-Grade Structured Stability
+              </h3>
+              <p>
+                Professional digital asset reserves with quantified risk
+                management.
+              </p>
             </div>
 
-            <div className="space-y-4">
-              <h4 className="text-xl font-semibold text-white">
-                CORE BENEFITS:
-              </h4>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-dark font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-white">
-                      Risk Management
-                    </h5>
-                    <p className="text-gray-400 text-sm">
-                      Advanced protocols for asset protection
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-dark font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-white">
-                      Compliance Ready
-                    </h5>
-                    <p className="text-gray-400 text-sm">
-                      Built for regulatory requirements
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-dark font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-white">
-                      Operational Excellence
-                    </h5>
-                    <p className="text-gray-400 text-sm">
-                      Professional-grade infrastructure
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-dark font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-white">
-                      Capital Efficiency
-                    </h5>
-                    <p className="text-gray-400 text-sm">
-                      Optimized yield generation
-                    </p>
-                  </div>
-                </div>
+            <div className={styles.metricContainer}>
+              <Animated48b className={styles.metricAnimation} />
+              <div>
+                <span className={styles.metricTitle}>KEY METRICS</span>
+                <ul className={styles.metricList}>
+                  <li>VaR monitoring (95th/99th percentile)</li>
+                  <li>99.999% uptime target</li>
+                  <li>T+0 redemption capability</li>
+                  <li>Monthly attestations</li>
+                </ul>
               </div>
             </div>
           </div>
+
+          <div className={styles.coreBenefits}>
+            <span className={styles.coreBenefitsTitle}>CORE BENEFITS:</span>
+            {renderCoreBenefits()}
+          </div>
+        </div>
+
+        <div className={styles.badge}>
+          <span className={styles.badgeText}>FOR INSTITUTIONS</span>
         </div>
       </div>
     </section>

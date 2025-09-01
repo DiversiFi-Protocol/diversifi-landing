@@ -8,62 +8,63 @@ export default function Explainer2Section() {
 
       <div className={styles.container}>
         <div className={styles.grid}>
-          {/* Left Side - Content */}
-          <div className={styles.leftContent}>
-            <span className={styles.badge}>FOR DEFI PROTOCOLS</span>
-
+          <div className={styles.topContent}>
             <h2 className={styles.title}>
-              The Reserve Asset DeFi Actually Needs
+              The Reserve Asset
+              <br /> DeFi Actually Needs
             </h2>
 
+            <div className={styles.challengeSection}>
+              <h3 className={styles.sectionTitle}>THE CHALLENGE:</h3>
+              <p className={styles.sectionText}>
+                Traditional stablecoins lack the stability and transparency that
+                DeFi protocols require. Single-point failures and opaque
+                operations put your users' funds at risk.
+              </p>
+            </div>
+          </div>
+          <div className={styles.bottomContent}>
             <div className={styles.contentSection}>
-              <div className={styles.challengeSection}>
-                <h3 className={styles.sectionTitle}>THE CHALLENGE:</h3>
-                <p className={styles.sectionText}>
-                  Traditional stablecoins lack the stability and transparency
-                  that DeFi protocols require. Single-point failures and opaque
-                  operations put your users' funds at risk.
-                </p>
-              </div>
-
               <div className={styles.solutionSection}>
                 <h3 className={styles.sectionTitle}>OUR SOLUTION:</h3>
                 <p className={styles.sectionText}>
-                  DiversiFi provides institutional-grade stability with complete
-                  transparency. Our multi-collateral approach and automated risk
-                  management ensure your protocol always has access to reliable
-                  reserves.
+                  We reduce risk with real-tie monitoring, improve efficiency
+                  through automated rebalancing, and scale seamlessly with
+                  multichain integration.
                 </p>
-              </div>
-            </div>
+                <div className={styles.additionalSolutionContnet}>
+                  <div className={styles.borderLeft}>
+                    <p>
+                      We bring together risk reduction, professional management,
+                      and DeFi-native design to deliver a resilient and
+                      efficient system.
+                    </p>
 
-            {/* CTA Buttons */}
-            <div className={styles.ctaButtons}>
-              <button className={styles.primaryButton}>
-                Start Integration
-              </button>
-              <button className={styles.secondaryButton}>Schedule Demo</button>
-            </div>
-          </div>
+                    <p>
+                      Our approach combines downside protection, automated
+                      rebalancing with stress testing, and API-first
+                      architecture to ensure long-term stability and seamless
+                      interoperability.
+                    </p>
+                  </div>
 
-          {/* Right Side - Visual Element */}
-          <div className={styles.rightSide}>
-            <div className={styles.visualElement}>
-              <div className={styles.visualContent}>
-                <div className={styles.iconContainer}>
-                  <svg
-                    className={styles.icon}
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                  <div className={styles.ctaButtons}>
+                    <button className={styles.primaryButton}>
+                      Start Integration
+                    </button>
+                    <button className={styles.secondaryButton}>
+                      Schedule Demo
+                    </button>
+                  </div>
                 </div>
-                <p className={styles.visualText}>DeFi Integration Ready</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className={styles.badge}>
+        <h3 className={styles.badgeText}>FOR DEFI PROTOCOLS</h3>
       </div>
     </section>
   );
