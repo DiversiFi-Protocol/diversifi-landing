@@ -1,0 +1,184 @@
+@import "@/styles/breakpoints.scss";
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("/backgrounds/governance-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(10, 10, 10, 0.7);
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+
+  @include breakpoint(mobile) {
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint(not-tablet) {
+    padding: 0 2rem;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+
+  @include breakpoint(not-tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  @include breakpoint(not-mobile) {
+    font-size: 3rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  background-color: #26faef;
+  color: #0a0a0a;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: rgba(38, 250, 239, 0.9);
+  }
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.governanceTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #26faef;
+}
+
+.governanceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.voteSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.voteTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.voteList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.voteItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.voteDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.voteDotPrimary {
+  background-color: #26faef;
+}
+
+.voteDotSecondary {
+  background-color: #0066ff;
+}
+
+.voteText {
+  color: #d1d5db;
+}
+
+.tokenInfoCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.tokenTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.tokenGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.tokenItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.tokenLabel {
+  color: #9ca3af;
+}
+
+.tokenValue {
+  color: #ffffff;
+  font-weight: 600;
+}

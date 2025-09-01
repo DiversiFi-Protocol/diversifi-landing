@@ -1,0 +1,149 @@
+@import "@/styles/breakpoints.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @include breakpoint(mobile) {
+    padding: 0 1.5rem;
+  }
+
+  @include breakpoint(not-tablet) {
+    padding: 0 2rem;
+  }
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoWrapper {
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 24px;
+}
+
+.desktopNav {
+  display: none;
+  gap: 2rem;
+
+  @include breakpoint(not-mobile) {
+    display: flex;
+  }
+}
+
+.navLink {
+  color: #d1d5db;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.ctaButton {
+  display: none;
+  background-color: #26faef;
+  color: #0a0a0a;
+  padding: 0.5rem 1.5rem;
+  margin: auto 0;
+  font-weight: 600;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: rgba(38, 250, 239, 0.9);
+  }
+
+  @include breakpoint(not-tablet) {
+    display: block;
+  }
+}
+
+.mobileMenuButton {
+  display: block;
+
+  @include breakpoint(not-mobile) {
+    display: none;
+  }
+}
+
+.menuButton {
+  color: #d1d5db;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.menuIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.mobileNav {
+  display: block;
+
+  @include breakpoint(not-mobile) {
+    display: none;
+  }
+}
+
+.mobileNavContent {
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+  gap: 0.25rem;
+  background-color: rgba(26, 26, 26, 0.95);
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+
+  @include breakpoint(mobile) {
+    padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+  }
+}
+
+.mobileNavLink {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #d1d5db;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.mobileCtaContainer {
+  padding-top: 1rem;
+}
+
+.mobileCtaButton {
+  width: 100%;
+  background-color: #26faef;
+  color: #0a0a0a;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}

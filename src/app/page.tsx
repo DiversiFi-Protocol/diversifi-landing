@@ -1,15 +1,16 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/sections/HeroSection";
-import Explainer1Section from "@/components/sections/Explainer1Section";
-import Explainer2Section from "@/components/sections/Explainer2Section";
-import Explainer3Section from "@/components/sections/Explainer3Section";
-import Explainer4Section from "@/components/sections/Explainer4Section";
-import GovernanceSection from "@/components/sections/GovernanceSection";
-import Footer from "@/components/Footer";
+import Header from "@/components/Header/Header";
+import HeroSection from "@/components/sections/HeroSection/HeroSection";
+import Explainer1Section from "@/components/sections/Explainer1/Explainer1Section";
+import Explainer2Section from "@/components/sections/Explainer2/Explainer2Section";
+import Explainer3Section from "@/components/sections/Explainer3/Explainer3Section";
+import Explainer4Section from "@/components/sections/Explainer4/Explainer4Section";
+import GovernanceSection from "@/components/sections/Governance/GovernanceSection";
+import Footer from "@/components/Footer/Footer";
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className={styles.main}>
       <Header />
 
       <HeroSection />

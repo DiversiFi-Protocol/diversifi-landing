@@ -1,0 +1,665 @@
+import "./how-animation.css";
+
+export default function HowAnimation({ className }: { className?: string }) {
+  return (
+    <svg
+      data-animation-duration="7s"
+      viewBox="0 0 100 100"
+      className={className}
+    >
+      <title> ANIMATION 48 - VARIATION A (THANK YOU ANDREW!)</title>
+      <desc>
+        <p>
+          See this animation in action here:
+          <a
+            href="https://andrew.wang-hoyer.com/experiments/svg-animations/48/a"
+            target="_blank"
+            rel="noopener"
+          >
+            https://andrew.wang-hoyer.com/experiments/svg-animations/48/a
+          </a>
+          .
+        </p>
+        <p>
+          Generator source code :
+          <a
+            href="https://github.com/ndrwhr/svg-animation-src/tree/master/site/_svgs/generators/animations/48/a.js"
+            target="_blank"
+            rel="noopener"
+          >
+            https://github.com/ndrwhr/svg-animation-src/tree/master/site/_svgs/generators/animations/48/a.js
+          </a>
+          .
+        </p>
+        <p>
+          All generated files and source code are released under the following
+          license:
+        </p>
+        <p>MIT License</p>
+        <p>Copyright (c) 2018-present Andrew Hoyer</p>
+        <p>
+          Permission is hereby granted, free of charge, to any person obtaining
+          a copy of this software and associated documentation files (the
+          "Software"), to deal in the Software without restriction, including
+          without limitation the rights to use, copy, modify, merge, publish,
+          distribute, sublicense, and/or sell copies of the Software, and to
+          permit persons to whom the Software is furnished to do so, subject to
+          the following conditions:
+        </p>
+        <p>
+          The above copyright notice and this permission notice shall be
+          included in all copies or substantial portions of the Software.
+        </p>
+        <p>
+          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+          EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+          IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+          CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+          TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+          SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        </p>
+      </desc>
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-8"
+        cx="15"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="22.77777777777778"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-0"
+        cx="30.555555555555557"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="38.333333333333336"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="46.111111111111114"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="53.88888888888889"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-11"
+        cx="61.66666666666667"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="69.44444444444444"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="77.22222222222221"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-17"
+        cx="84.99999999999999"
+        cy="15"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-0"
+        cx="15"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-7"
+        cx="22.77777777777778"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-19"
+        cx="30.555555555555557"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-6"
+        cx="38.333333333333336"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-11"
+        cx="46.111111111111114"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="53.88888888888889"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-23"
+        cx="61.66666666666667"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-7"
+        cx="69.44444444444444"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-22"
+        cx="77.22222222222221"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-20"
+        cx="84.99999999999999"
+        cy="22.77777777777778"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-22"
+        cx="15"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="22.77777777777778"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-5"
+        cx="30.555555555555557"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="38.333333333333336"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-19"
+        cx="46.111111111111114"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-2"
+        cx="53.88888888888889"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="61.66666666666667"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="69.44444444444444"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-9"
+        cx="77.22222222222221"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-23"
+        cx="84.99999999999999"
+        cy="30.555555555555557"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-11"
+        cx="15"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="22.77777777777778"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="30.555555555555557"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-0"
+        cx="38.333333333333336"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-6"
+        cx="46.111111111111114"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="53.88888888888889"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="61.66666666666667"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-9"
+        cx="69.44444444444444"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-9"
+        cx="77.22222222222221"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="84.99999999999999"
+        cy="38.333333333333336"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-12"
+        cx="15"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="22.77777777777778"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="30.555555555555557"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="38.333333333333336"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="46.111111111111114"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="53.88888888888889"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-15"
+        cx="61.66666666666667"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-5"
+        cx="69.44444444444444"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-12"
+        cx="77.22222222222221"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-7"
+        cx="84.99999999999999"
+        cy="46.111111111111114"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-7"
+        cx="15"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="22.77777777777778"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-2"
+        cx="30.555555555555557"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="38.333333333333336"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="46.111111111111114"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-19"
+        cx="53.88888888888889"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="61.66666666666667"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-12"
+        cx="69.44444444444444"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-14"
+        cx="77.22222222222221"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-22"
+        cx="84.99999999999999"
+        cy="53.88888888888889"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="15"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-23"
+        cx="22.77777777777778"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-20"
+        cx="30.555555555555557"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-11"
+        cx="38.333333333333336"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="46.111111111111114"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="53.88888888888889"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-6"
+        cx="61.66666666666667"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-19"
+        cx="69.44444444444444"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-23"
+        cx="77.22222222222221"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-15"
+        cx="84.99999999999999"
+        cy="61.66666666666667"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-20"
+        cx="15"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="22.77777777777778"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-0"
+        cx="30.555555555555557"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="38.333333333333336"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="46.111111111111114"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-7"
+        cx="53.88888888888889"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="61.66666666666667"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-15"
+        cx="69.44444444444444"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-8"
+        cx="77.22222222222221"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="84.99999999999999"
+        cy="69.44444444444444"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="15"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-4"
+        cx="22.77777777777778"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-5"
+        cx="30.555555555555557"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-9"
+        cx="38.333333333333336"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-3"
+        cx="46.111111111111114"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="53.88888888888889"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-18"
+        cx="61.66666666666667"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-13"
+        cx="69.44444444444444"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-11"
+        cx="77.22222222222221"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="84.99999999999999"
+        cy="77.22222222222221"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-20"
+        cx="15"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-21"
+        cx="22.77777777777778"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-12"
+        cx="30.555555555555557"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="38.333333333333336"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-1"
+        cx="46.111111111111114"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-23"
+        cx="53.88888888888889"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-10"
+        cx="61.66666666666667"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-13"
+        cx="69.44444444444444"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-12"
+        cx="77.22222222222221"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+      <circle
+        className="svg-48-a-circle svg-48-a-anim-16"
+        cx="84.99999999999999"
+        cy="84.99999999999999"
+        r="1.5"
+      />
+    </svg>
+  );
+}

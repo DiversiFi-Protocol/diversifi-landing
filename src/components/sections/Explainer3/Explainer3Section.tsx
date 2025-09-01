@@ -1,25 +1,22 @@
+import styles from "./Explainer3Section.module.scss";
+
 export default function Explainer3Section() {
   return (
-    <section
-      id="for-institutions"
-      className="section-full shared-background flex items-center relative"
-    >
+    <section id="for-institutions" className={styles.section}>
       {/* Overlay for bottom half */}
-      <div className="absolute inset-0 bg-gradient-to-t from-transparent via-dark/50 to-dark/80"></div>
+      <div className={styles.overlay}></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className={styles.container}>
+        <div className={styles.grid}>
           {/* Left Side - Content */}
-          <div className="space-y-8">
-            <span className="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium">
-              FOR INSTITUTIONS
-            </span>
+          <div className={styles.leftContent}>
+            <span className={styles.badge}>FOR INSTITUTIONS</span>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-white">
+            <h2 className={styles.title}>
               Institutional-Grade Structured Stability
             </h2>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className={styles.subtitle}>
               Professional digital asset reserves with quantified risk
               management.
             </p>

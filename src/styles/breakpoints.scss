@@ -1,0 +1,54 @@
+// Global Breakpoints - Desktop First Approach
+
+// Breakpoint Variables
+$breakpoint-mobile-tiny: 414px;
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+
+// Desktop small is our base resolution, all breakpoints expand out from desktop-small
+$breakpoint-desktop-small: 1280px;
+$breakpoint-desktop-medium: 1440px;
+$breakpoint-desktop-large: 1920px;
+
+$breakpoint-vertical-large: 1080px;
+
+// Breakpoint Mixin
+@mixin breakpoint($point) {
+  @if $point == mobile-tiny {
+    @media (max-width: $breakpoint-mobile-tiny) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $point == not-mobile {
+    @media (min-width: calc(#{$breakpoint-mobile} + 1px)) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $point == not-tablet {
+    @media (min-width: calc(#{$breakpoint-tablet} + 1px)) {
+      @content;
+    }
+  } @else if $point == desktop-small {
+    @media (max-width: $breakpoint-desktop-small) {
+      @content;
+    }
+  } @else if $point == desktop-medium {
+    @media (min-width: $breakpoint-desktop-medium) {
+      @content;
+    }
+  } @else if $point == desktop-large {
+    @media (min-width: $breakpoint-desktop-large) {
+      @content;
+    }
+  } @else if $point == vertical-large {
+    @media (min-height: $breakpoint-vertical-large) {
+      @content;
+    }
+  }
+}
