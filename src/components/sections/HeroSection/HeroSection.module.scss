@@ -33,14 +33,12 @@
   width: 100%;
   position: relative;
   z-index: 20;
+  margin-top: auto;
+  padding: 0 2rem;
+  padding-top: 4rem;
 
   @include breakpoint(mobile) {
     padding: 1rem 1.5rem;
-    margin-top: auto;
-  }
-
-  @include breakpoint(not-tablet) {
-    padding: 0 2rem;
   }
 }
 

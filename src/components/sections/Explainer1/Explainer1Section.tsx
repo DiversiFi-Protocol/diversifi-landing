@@ -1,4 +1,4 @@
-import HowAnimation from "../../icons/how-animation";
+import HowAnimation from "../../icons/HowAnimation/how-animation";
 import styles from "./Explainer1Section.module.scss";
 
 export default function Explainer1Section() {
