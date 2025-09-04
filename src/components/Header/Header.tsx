@@ -106,9 +106,21 @@ export default function Header() {
               </a>
               <div className={styles.mobileCtaContainer}>
                 <button className={styles.mobileCtaButton}>
-                  Integrate DiversiFi
+                  Launch App
                 </button>
               </div>
+              <div className={styles.mobileCtaContainer}>
+                <button className={styles.mobileCtaButton}>
+                  Docs
+                </button>
+              </div>
+              <div className={styles.mobileCtaContainer}>
+                <button className={styles.mobileCtaButton}>
+                  Incentives 
+                  {/* link to: https://app.merkl.xyz/?search=DFiUSD&sort=tvl-desc&tokenType=all */}
+                </button>
+              </div>
+              
             </div>
           </div>
         )}
