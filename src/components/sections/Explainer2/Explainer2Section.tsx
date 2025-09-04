@@ -28,7 +28,7 @@ export default function Explainer2Section() {
               <div className={styles.solutionSection}>
                 <h3 className={styles.sectionTitle}>OUR SOLUTION:</h3>
                 <p className={styles.sectionText}>
-                  We reduce risk with real-tie monitoring, improve efficiency
+                  We reduce risk with real-time monitoring, improve efficiency
                   through automated rebalancing, and scale seamlessly with
                   multichain integration.
                 </p>

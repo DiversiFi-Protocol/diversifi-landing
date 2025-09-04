@@ -24,7 +24,7 @@ export default function Explainer3Section() {
         icon: <CogIcon />,
         label: "Operational Excellence",
         description:
-          "Multi-sig custody, 24/7 monitoring, comprehensive audit trails.",
+          "Non-custodial architecture, 24/7 monitoring, comprehensive audit trails.",
       },
       {
         icon: <CapitalEfficientIcon />,

@@ -28,9 +28,8 @@ export default function Explainer1Section() {
                   </h4>
                   <ul className={styles.list}>
                     <li>
-                      Spreads risk across multiple high-quality collateral types
-                      including US Treasuries, corporate bonds, and other stable
-                      assets.
+                      Spreads risk across multiple high-quality stablecoins,
+                      reducing the severity of a single peg failure.
                     </li>
                   </ul>
                 </div>
@@ -59,7 +58,7 @@ export default function Explainer1Section() {
                   <ul className={styles.list}>
                     <li>Weekend banking risk mitigation</li>
                     <li>Emergency rebalancing protocols</li>
-                    <li>5% target reserve supply</li>
+                    <li>5% target reserve surplus</li>
                   </ul>
                 </div>
               </div>

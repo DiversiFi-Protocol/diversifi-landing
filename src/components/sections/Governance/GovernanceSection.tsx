@@ -120,16 +120,16 @@ export default function GovernanceSection() {
                 <div>
                   <span className="text-gray-400">Total Supply:</span>
                   <div className="text-white font-semibold">
-                    100,000,000 DFI
+                    1,000,000,000 DFI
                   </div>
                 </div>
                 <div>
                   <span className="text-gray-400">Circulating:</span>
-                  <div className="text-white font-semibold">45,000,000 DFI</div>
+                  <div className="text-white font-semibold">N/A DFI</div>
                 </div>
                 <div>
                   <span className="text-gray-400">Staked:</span>
-                  <div className="text-white font-semibold">32,000,000 DFI</div>
+                  <div className="text-white font-semibold">N/A DFI</div>
                 </div>
                 <div>
                   <span className="text-gray-400">Governance Power:</span>
