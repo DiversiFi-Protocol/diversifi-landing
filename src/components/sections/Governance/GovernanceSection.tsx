@@ -111,7 +111,7 @@ export default function GovernanceSection() {
               </div>
             </div>
 
-            {/* Token Info */}
+            {/* Token Info
             <div className="bg-white/10 rounded-lg p-6">
               <h4 className="text-lg font-semibold text-white mb-3">
                 DFI Token
@@ -136,7 +136,7 @@ export default function GovernanceSection() {
                   <div className="text-white font-semibold">1 DFI = 1 Vote</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
