@@ -93,6 +93,18 @@
   }
 }
 
+.incentivesLink {
+  color: #26faef;
+  padding: 1rem;
+  margin: 0 2rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .rightContent {
   display: flex;
   flex-direction: column;

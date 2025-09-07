@@ -49,9 +49,6 @@ export default function Explainer2Section() {
                   </div>
 
                   <div className={styles.ctaButtons}>
-                    <button className={styles.primaryButton}>
-                      Start Integration
-                    </button>
                     <button className={styles.secondaryButton}>
                       Schedule Demo
                     </button>

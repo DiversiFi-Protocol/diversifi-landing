@@ -3,8 +3,9 @@
 import AuditShield from "@/components/icons/AuditShield";
 import InstitutionalShield from "@/components/icons/InstitutionalShield";
 import styles from "./HeroSection.module.scss";
-import { DOC_LINK } from "@/constants/links";
+import { APP_LINK, DOC_LINK } from "@/constants/links";
 import { NavigateOutDialog } from "@/components/Dialogs/NavigateOutDialog/NavigateOutDialog";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 
 export default function HeroSection() {
   return (
@@ -21,10 +22,18 @@ export default function HeroSection() {
           <div className={styles.leftContent}>
             <div className={styles.labels}>
               <span className={styles.label}>DFIUSD</span>
-              <span className={styles.badge}>
-                <AuditShield className={styles.badgeIcon} />
-                Security Audited
-              </span>
+              <a
+                className="flex cursor-pointer hover:underline"
+                href="/docs/diversifi-audit.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className={styles.badge}>
+                  <AuditShield className={styles.badgeIcon} />
+                  Security Audited
+                  <ArrowTopRightOnSquareIcon className="size-3" />
+                </span>
+              </a>
               <span className={styles.badge}>
                 <InstitutionalShield className={styles.badgeIcon} />
                 Institutional-Grade Risk Management
@@ -43,9 +52,9 @@ export default function HeroSection() {
             </p>
 
             <div className={styles.ctaButtons}>
-              <button className={styles.primaryButton}>
-                Integrate DiversiFi
-              </button>
+              <NavigateOutDialog href={APP_LINK}>
+                <button className={styles.primaryButton}>Launch App</button>
+              </NavigateOutDialog>
               <NavigateOutDialog href={DOC_LINK}>
                 <button className={styles.secondaryButton}>
                   View Documentation
