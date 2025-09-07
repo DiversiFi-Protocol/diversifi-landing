@@ -1,6 +1,8 @@
-import "./how-animation.css";
+import styles from "./48a.module.scss";
 
-export default function HowAnimation({ className }: { className?: string }) {
+import classNames from "classnames";
+
+export default function ({ className }: { className?: string }) {
   return (
     <svg
       data-animation-duration="7s"
@@ -61,601 +63,901 @@ export default function HowAnimation({ className }: { className?: string }) {
         </p>
       </desc>
       <circle
-        className="svg-48-a-circle svg-48-a-anim-8"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-8"]
+        )}
         cx="15"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="22.77777777777778"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-0"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-0"]
+        )}
         cx="30.555555555555557"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="38.333333333333336"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="46.111111111111114"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="53.88888888888889"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-11"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-11"]
+        )}
         cx="61.66666666666667"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="69.44444444444444"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="77.22222222222221"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-17"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-17"]
+        )}
         cx="84.99999999999999"
         cy="15"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-0"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-0"]
+        )}
         cx="15"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-7"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-7"]
+        )}
         cx="22.77777777777778"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-19"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-19"]
+        )}
         cx="30.555555555555557"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-6"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-6"]
+        )}
         cx="38.333333333333336"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-11"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-11"]
+        )}
         cx="46.111111111111114"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="53.88888888888889"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-23"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-23"]
+        )}
         cx="61.66666666666667"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-7"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-7"]
+        )}
         cx="69.44444444444444"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-22"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-22"]
+        )}
         cx="77.22222222222221"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-20"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-20"]
+        )}
         cx="84.99999999999999"
         cy="22.77777777777778"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-22"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-22"]
+        )}
         cx="15"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="22.77777777777778"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-5"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-5"]
+        )}
         cx="30.555555555555557"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="38.333333333333336"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-19"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-19"]
+        )}
         cx="46.111111111111114"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-2"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-2"]
+        )}
         cx="53.88888888888889"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="61.66666666666667"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="69.44444444444444"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-9"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-9"]
+        )}
         cx="77.22222222222221"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-23"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-23"]
+        )}
         cx="84.99999999999999"
         cy="30.555555555555557"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-11"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-11"]
+        )}
         cx="15"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="22.77777777777778"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="30.555555555555557"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-0"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-0"]
+        )}
         cx="38.333333333333336"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-6"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-6"]
+        )}
         cx="46.111111111111114"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="53.88888888888889"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="61.66666666666667"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-9"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-9"]
+        )}
         cx="69.44444444444444"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-9"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-9"]
+        )}
         cx="77.22222222222221"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="84.99999999999999"
         cy="38.333333333333336"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-12"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-12"]
+        )}
         cx="15"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="22.77777777777778"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="30.555555555555557"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="38.333333333333336"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="46.111111111111114"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="53.88888888888889"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-15"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-15"]
+        )}
         cx="61.66666666666667"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-5"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-5"]
+        )}
         cx="69.44444444444444"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-12"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-12"]
+        )}
         cx="77.22222222222221"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-7"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-7"]
+        )}
         cx="84.99999999999999"
         cy="46.111111111111114"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-7"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-7"]
+        )}
         cx="15"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="22.77777777777778"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-2"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-2"]
+        )}
         cx="30.555555555555557"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="38.333333333333336"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="46.111111111111114"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-19"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-19"]
+        )}
         cx="53.88888888888889"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="61.66666666666667"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-12"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-12"]
+        )}
         cx="69.44444444444444"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-14"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-14"]
+        )}
         cx="77.22222222222221"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-22"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-22"]
+        )}
         cx="84.99999999999999"
         cy="53.88888888888889"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="15"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-23"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-23"]
+        )}
         cx="22.77777777777778"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-20"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-20"]
+        )}
         cx="30.555555555555557"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-11"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-11"]
+        )}
         cx="38.333333333333336"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="46.111111111111114"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="53.88888888888889"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-6"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-6"]
+        )}
         cx="61.66666666666667"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-19"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-19"]
+        )}
         cx="69.44444444444444"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-23"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-23"]
+        )}
         cx="77.22222222222221"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-15"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-15"]
+        )}
         cx="84.99999999999999"
         cy="61.66666666666667"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-20"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-20"]
+        )}
         cx="15"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="22.77777777777778"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-0"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-0"]
+        )}
         cx="30.555555555555557"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="38.333333333333336"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="46.111111111111114"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-7"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-7"]
+        )}
         cx="53.88888888888889"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="61.66666666666667"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-15"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-15"]
+        )}
         cx="69.44444444444444"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-8"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-8"]
+        )}
         cx="77.22222222222221"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="84.99999999999999"
         cy="69.44444444444444"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="15"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-4"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-4"]
+        )}
         cx="22.77777777777778"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-5"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-5"]
+        )}
         cx="30.555555555555557"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-9"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-9"]
+        )}
         cx="38.333333333333336"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-3"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-3"]
+        )}
         cx="46.111111111111114"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="53.88888888888889"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-18"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-18"]
+        )}
         cx="61.66666666666667"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-13"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-13"]
+        )}
         cx="69.44444444444444"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-11"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-11"]
+        )}
         cx="77.22222222222221"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="84.99999999999999"
         cy="77.22222222222221"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-20"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-20"]
+        )}
         cx="15"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-21"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-21"]
+        )}
         cx="22.77777777777778"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-12"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-12"]
+        )}
         cx="30.555555555555557"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="38.333333333333336"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-1"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-1"]
+        )}
         cx="46.111111111111114"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-23"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-23"]
+        )}
         cx="53.88888888888889"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-10"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-10"]
+        )}
         cx="61.66666666666667"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-13"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-13"]
+        )}
         cx="69.44444444444444"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-12"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-12"]
+        )}
         cx="77.22222222222221"
         cy="84.99999999999999"
         r="1.5"
       />
       <circle
-        className="svg-48-a-circle svg-48-a-anim-16"
+        className={classNames(
+          styles["svg-48-a-circle"],
+          styles["svg-48-a-anim-16"]
+        )}
         cx="84.99999999999999"
         cy="84.99999999999999"
         r="1.5"

@@ -1,4 +1,4 @@
-import HowAnimation from "../../icons/HowAnimation/how-animation";
+import Animated48a from "@/components/icons/48a";
 import styles from "./Explainer1Section.module.scss";
 
 export default function Explainer1Section() {
@@ -8,7 +8,7 @@ export default function Explainer1Section() {
         <div className={styles.container}>
           <div className={styles.leftColumn}>
             <div className={styles.animationContainer}>
-              <HowAnimation className={styles.animation} />
+              <Animated48a className={styles.animation} />
             </div>
 
             <h2 className={styles.title}>
