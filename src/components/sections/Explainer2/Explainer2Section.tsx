@@ -1,3 +1,4 @@
+import { SCHEDULE_DEMO_LINK } from "@/constants/links";
 import styles from "./Explainer2Section.module.scss";
 
 export default function Explainer2Section() {
@@ -49,9 +50,15 @@ export default function Explainer2Section() {
                   </div>
 
                   <div className={styles.ctaButtons}>
-                    <button className={styles.secondaryButton}>
-                      Schedule Demo
-                    </button>
+                    <a
+                      href={SCHEDULE_DEMO_LINK}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className={styles.secondaryButton}>
+                        Schedule Demo
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

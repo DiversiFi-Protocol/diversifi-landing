@@ -1,4 +1,4 @@
-import { MERKL_LINK } from "@/constants/links";
+import { MERKL_LINK, SUBSTACK_LINK } from "@/constants/links";
 import styles from "./GovernanceSection.module.scss";
 
 export default function GovernanceSection() {
@@ -29,9 +29,12 @@ export default function GovernanceSection() {
             </div>
 
             <div>
-              <button className={styles.ctaButton}>
-                Subscribe for Updates
-              </button>
+              <a href={SUBSTACK_LINK} target="_blank" rel="noopener noreferrer">
+                <button className={styles.ctaButton}>
+                  Subscribe for Updates
+                </button>
+              </a>
+
               <a
                 href={MERKL_LINK}
                 target="_blank"

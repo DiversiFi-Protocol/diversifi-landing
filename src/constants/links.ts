@@ -9,3 +9,8 @@ export const MERKL_LINK =
 export const APP_LINK = "https://app.diversifi.tech";
 
 export const DOC_LINK = "https://docs.diversifi.tech";
+
+// TODO: Belvis
+export const SCHEDULE_DEMO_LINK = "";
+
+export const SUBSTACK_LINK = "";
