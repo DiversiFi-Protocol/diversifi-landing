@@ -21,7 +21,6 @@ export default function Explainer1Section() {
           <div className={styles.rightColumn}>
             <div className={styles.featureList}>
               <div className={styles.featureItem}>
-                <div className={styles.icon}>+</div>
                 <div className={styles.featureContent}>
                   <h4 className={styles.featureTitle}>
                     Multi-Collateral Diversification
@@ -36,7 +35,6 @@ export default function Explainer1Section() {
               </div>
 
               <div className={styles.featureItem}>
-                <div className={styles.icon}>+</div>
                 <div className={styles.featureContent}>
                   <h4 className={styles.featureTitle}>
                     Transparent Infrastructure
@@ -52,7 +50,6 @@ export default function Explainer1Section() {
               </div>
 
               <div className={styles.featureItem}>
-                <div className={styles.icon}>+</div>
                 <div className={styles.featureContent}>
                   <h4 className={styles.featureTitle}>Crisis Protection</h4>
                   <ul className={styles.list}>

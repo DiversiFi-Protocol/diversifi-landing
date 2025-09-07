@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "./Header.module.scss";
 import { APP_LINK, DOC_LINK, MERKL_LINK } from "@/constants/links";
 import Link from "next/link";
+import { NavigateOutDialog } from "../Dialogs/NavigateOutDialog/NavigateOutDialog";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,9 +55,9 @@ export default function Header() {
 
             {/* CTA Button */}
             <div>
-              <a href={APP_LINK} target="_blank" rel="noopener noreferrer">
+              <NavigateOutDialog href={APP_LINK}>
                 <button className={styles.ctaButton}>Launch App</button>
-              </a>
+              </NavigateOutDialog>
             </div>
           </nav>
 

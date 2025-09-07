@@ -1,8 +1,11 @@
+"use client";
+
 import { DOC_LINK, SOCIAL_LINKS } from "@/constants/links";
 import DiscordIcon from "../icons/DiscordIcon";
 import TwitterIcon from "../icons/TwitterIcon";
 import styles from "./Footer.module.scss";
 import Link from "next/link";
+import { NavigateOutDialog } from "../Dialogs/NavigateOutDialog/NavigateOutDialog";
 
 export default function Footer() {
   return (
@@ -23,9 +26,9 @@ export default function Footer() {
             <h4 className={styles.sectionTitle}>Resources</h4>
             <ul className={styles.navList}>
               <li>
-                <a href={DOC_LINK} className={styles.navLink}>
-                  Documentation
-                </a>
+                <NavigateOutDialog href={DOC_LINK}>
+                  <a className={styles.navLink}>Documentation</a>
+                </NavigateOutDialog>
               </li>
               <li>
                 <a

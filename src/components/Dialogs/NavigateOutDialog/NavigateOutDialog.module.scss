@@ -1,0 +1,16 @@
+@import "@/styles/breakpoints.scss";
+
+.ctaButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: flex-end;
+
+  @include breakpoint(mobile) {
+    flex-direction: column;
+
+    button {
+      width: 100%;
+    }
+  }
+}

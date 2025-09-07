@@ -1,0 +1,81 @@
+// Sizes
+.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.medium {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.large {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+// Borders
+.borderWhite {
+  border: 1px solid #ffffff;
+}
+
+.borderAccent {
+  border: 1px solid #26faef;
+}
+
+.borderBlack {
+  border: 1px solid #000;
+}
+
+.borderNone {
+  border: 1px solid transparent;
+}
+
+// Text Colors
+.textColorWhite {
+  color: #ffffff;
+}
+
+.textColorBlack {
+  color: #000;
+}
+
+.textColorAccent {
+  color: #26faef;
+}
+
+// Button Color
+.buttonColorTransparent {
+  background-color: transparent;
+
+  &:hover:not(:disabled) {
+    background-color: rgba(10, 10, 10, 0.1);
+  }
+}
+
+.buttonColorAccent {
+  background-color: #26faef;
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+}
+
+.buttonColorWhite {
+  background-color: #ffffff;
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+}
+
+.buttonColorBlack {
+  background-color: #000;
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+}

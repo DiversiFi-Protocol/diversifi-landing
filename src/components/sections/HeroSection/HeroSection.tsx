@@ -4,7 +4,7 @@ import AuditShield from "@/components/icons/AuditShield";
 import InstitutionalShield from "@/components/icons/InstitutionalShield";
 import styles from "./HeroSection.module.scss";
 import { DOC_LINK } from "@/constants/links";
-import { NavigateOutDialog } from "@/components/Dialogs/NavigateOutDialog";
+import { NavigateOutDialog } from "@/components/Dialogs/NavigateOutDialog/NavigateOutDialog";
 
 export default function HeroSection() {
   return (
