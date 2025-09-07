@@ -4,6 +4,7 @@ import AuditShield from "@/components/icons/AuditShield";
 import InstitutionalShield from "@/components/icons/InstitutionalShield";
 import styles from "./HeroSection.module.scss";
 import { DOC_LINK } from "@/constants/links";
+import { NavigateOutDialog } from "@/components/Dialogs/NavigateOutDialog";
 
 export default function HeroSection() {
   return (
@@ -45,11 +46,11 @@ export default function HeroSection() {
               <button className={styles.primaryButton}>
                 Integrate DiversiFi
               </button>
-              <a href={DOC_LINK} target="_blank" rel="noopener noreferrer">
+              <NavigateOutDialog href={DOC_LINK}>
                 <button className={styles.secondaryButton}>
                   View Documentation
                 </button>
-              </a>
+              </NavigateOutDialog>
             </div>
 
             <p className={styles.additionalInfo}>

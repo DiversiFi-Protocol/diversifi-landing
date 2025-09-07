@@ -10,12 +10,18 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-dialog": "^1.1.15",
     "@types/classnames": "^2.3.0",
+    "class-variance-authority": "^0.7.1",
     "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.542.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "sass": "^1.91.0"
+    "sass": "^1.91.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.14",
