@@ -110,19 +110,19 @@ export default function Header() {
                 Governance
               </a>
               <div className={styles.mobileCtaContainer}>
-                <a href={APP_LINK} target="_blank" rel="noopener noreferrer">
+                <NavigateOutDialog href={APP_LINK}>
                   <button className={styles.mobileCtaButton}>Launch App</button>
-                </a>
+                </NavigateOutDialog>
               </div>
               <div className={styles.mobileCtaContainer}>
-                <a href={DOC_LINK} target="_blank" rel="noopener noreferrer">
+                <NavigateOutDialog href={DOC_LINK}>
                   <button className={styles.mobileCtaButton}>Docs</button>
-                </a>
+                </NavigateOutDialog>
               </div>
               <div className={styles.mobileCtaContainer}>
-                <a href={MERKL_LINK} target="_blank" rel="noopener noreferrer">
+                <NavigateOutDialog href={MERKL_LINK}>
                   <button className={styles.mobileCtaButton}>Incentives</button>
-                </a>
+                </NavigateOutDialog>
               </div>
             </div>
           </div>
