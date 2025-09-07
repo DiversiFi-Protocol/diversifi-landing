@@ -2,6 +2,7 @@ import { DOC_LINK, SOCIAL_LINKS } from "@/constants/links";
 import DiscordIcon from "../icons/DiscordIcon";
 import TwitterIcon from "../icons/TwitterIcon";
 import styles from "./Footer.module.scss";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -27,9 +28,19 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className={styles.navLink}>
-                  Terms of Service
+                <a
+                  href="/docs/whitepaper.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.navLink}
+                >
+                  Whitepaper
                 </a>
+              </li>
+              <li>
+                <Link href="/terms" className={styles.navLink}>
+                  Terms of Service
+                </Link>
               </li>
             </ul>
           </div>
@@ -54,9 +65,9 @@ export default function Footer() {
             © 2025 DiversiFi. All rights reserved.
           </p>
           <div className={styles.bottomLinks}>
-            <a href="#" className={styles.bottomLink}>
+            <Link href="/terms" className={styles.bottomLink}>
               Terms
-            </a>
+            </Link>
           </div>
         </div>
       </div>
