@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "./Header.module.scss";
 import { APP_LINK, DOC_LINK, MERKL_LINK } from "@/constants/links";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,13 +34,13 @@ export default function Header() {
           {/* Logo */}
           <div className={styles.logoContainer}>
             <div className={styles.logoWrapper}>
-              <a href="/">
+              <Link href="/">
                 <img
                   src="/brand/logo-text.svg"
                   alt="DiversiFi"
                   className={styles.logo}
                 />
-              </a>
+              </Link>
             </div>
           </div>
 

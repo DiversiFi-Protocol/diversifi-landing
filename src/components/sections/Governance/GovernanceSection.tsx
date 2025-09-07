@@ -15,15 +15,17 @@ export default function GovernanceSection() {
               Community-Driven Protocol Governance
             </h2>
 
-            <p className={styles.subtitle}>
-              DFI token holders participate in treasury management and protocol
-              decisions.
-            </p>
+            <div className={styles.subtitleContainer}>
+              <p className={styles.subtitle}>
+                DFI token holders participate in treasury management and
+                protocol decisions.
+              </p>
 
-            <p className={styles.disclaimer}>
-              *DFI tokens provide governance rights only - not for investment or
-              speculation.
-            </p>
+              <p className={styles.disclaimer}>
+                *DFI tokens provide governance rights only - not for investment
+                or speculation.
+              </p>
+            </div>
 
             <div>
               <button className={styles.ctaButton}>
@@ -34,12 +36,22 @@ export default function GovernanceSection() {
 
           <div className={styles.rightContent}>
             <div className="space-y-6">
-              <div>
-                <h3 className={styles.listTitle}>VOTE ON</h3>
+              <div className={styles.listContainer}>
+                <h3 className={styles.listTitle}>VOTE ON:</h3>
+                <ul>
+                  <li>Reserve composition strategies</li>
+                  <li>Protocol parameters</li>
+                  <li>Administrative decisions</li>
+                </ul>
               </div>
 
-              <div>
-                <h3 className={styles.listTitle}>VOTE VIA</h3>
+              <div className={styles.listContainer}>
+                <h3 className={styles.listTitle}>VOTE VIA:</h3>
+                <ul>
+                  <li>Direct voting</li>
+                  <li>Delegation to community members</li>
+                  <li>On-chain proposal process</li>
+                </ul>
               </div>
             </div>
           </div>

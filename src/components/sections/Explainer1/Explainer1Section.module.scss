@@ -1,14 +1,12 @@
 @import "@/styles/breakpoints.scss";
 
 .section {
-  min-height: 100vh;
   background-color: #000;
   display: flex;
   align-items: center;
 }
 
 .innerContainer {
-  min-height: 100vh;
   margin: 1rem;
   padding: 1rem;
   width: 100%;
