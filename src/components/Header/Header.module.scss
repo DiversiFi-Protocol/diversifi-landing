@@ -7,6 +7,16 @@
   right: 0;
   z-index: 50;
   backdrop-filter: blur(12px);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease, border-color 0.3s ease;
+
+  // Add a subtle box shadow for depth
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -42,6 +52,12 @@
 .logo {
   width: 100px;
   height: 24px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+  transition: filter 0.2s ease;
+
+  &:hover {
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.7));
+  }
 }
 
 .desktopNav {
@@ -58,9 +74,11 @@
   transition: color 0.2s;
   display: flex;
   align-items: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 
   &:hover {
     color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -93,9 +111,11 @@
 .menuButton {
   color: #d1d5db;
   transition: color 0.2s;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 
   &:hover {
     color: #ffffff;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
   }
 }
 
@@ -129,9 +149,11 @@
   padding: 0.5rem 0.75rem;
   color: #d1d5db;
   transition: color 0.2s;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 
   &:hover {
     color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
   }
 }
 
