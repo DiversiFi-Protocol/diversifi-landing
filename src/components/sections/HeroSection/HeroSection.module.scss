@@ -143,6 +143,7 @@
   font-weight: 600;
   font-size: 1.125rem;
   transition: all 0.2s;
+  width: 100%;
 
   &:hover {
     background-color: #ffffff;
@@ -157,12 +158,4 @@
   padding-left: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.rightSide {
-  display: none;
-
-  @include breakpoint(not-tablet) {
-    display: block;
-  }
 }

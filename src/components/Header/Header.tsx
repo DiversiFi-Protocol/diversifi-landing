@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import styles from "./Header.module.scss";
+import { APP_LINK, DOC_LINK, MERKL_LINK } from "@/constants/links";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +54,9 @@ export default function Header() {
 
             {/* CTA Button */}
             <div>
-              <button className={styles.ctaButton}>Integrate DiversiFi</button>
+              <a href={APP_LINK} target="_blank" rel="noopener noreferrer">
+                <button className={styles.ctaButton}>Launch App</button>
+              </a>
             </div>
           </nav>
 
@@ -105,22 +109,20 @@ export default function Header() {
                 Governance
               </a>
               <div className={styles.mobileCtaContainer}>
-                <button className={styles.mobileCtaButton}>
-                  Launch App
-                </button>
+                <a href={APP_LINK} target="_blank" rel="noopener noreferrer">
+                  <button className={styles.mobileCtaButton}>Launch App</button>
+                </a>
               </div>
               <div className={styles.mobileCtaContainer}>
-                <button className={styles.mobileCtaButton}>
-                  Docs
-                </button>
+                <a href={DOC_LINK} target="_blank" rel="noopener noreferrer">
+                  <button className={styles.mobileCtaButton}>Docs</button>
+                </a>
               </div>
               <div className={styles.mobileCtaContainer}>
-                <button className={styles.mobileCtaButton}>
-                  Incentives 
-                  {/* link to: https://app.merkl.xyz/?search=DFiUSD&sort=tvl-desc&tokenType=all */}
-                </button>
+                <a href={MERKL_LINK} target="_blank" rel="noopener noreferrer">
+                  <button className={styles.mobileCtaButton}>Incentives</button>
+                </a>
               </div>
-              
             </div>
           </div>
         )}
