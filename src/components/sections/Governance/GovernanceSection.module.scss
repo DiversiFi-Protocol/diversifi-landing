@@ -80,6 +80,16 @@
   line-height: 1.6;
 }
 
+.ctaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  @include breakpoint(mobile) {
+    flex-direction: column;
+  }
+}
+
 .ctaButton {
   background-color: #26faef;
   color: #0a0a0a;
@@ -95,10 +105,10 @@
 
 .incentivesLink {
   color: #26faef;
-  padding: 1rem;
-  margin: 0 2rem;
+  padding: 1rem 0.5rem;
   font-size: 1.125rem;
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover {
     text-decoration: underline;

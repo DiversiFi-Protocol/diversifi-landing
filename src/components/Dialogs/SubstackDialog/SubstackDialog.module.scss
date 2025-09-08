@@ -1,0 +1,36 @@
+@import "@/styles/breakpoints.scss";
+
+.iframeContainer {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+
+  // Ensure proper aspect ratio on mobile
+  @include breakpoint(mobile) {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+.iframe {
+  width: 100%;
+  height: 320px;
+  min-height: 320px;
+  border: none;
+  display: block;
+
+  // Adjust height for very small screens
+  @include breakpoint(mobile) {
+    height: 280px;
+    min-height: 280px;
+  }
+
+  // Extra small screens
+  @media (max-width: 320px) {
+    height: 240px;
+    min-height: 240px;
+  }
+}
