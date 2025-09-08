@@ -1,5 +1,6 @@
 import { MERKL_LINK, SUBSTACK_LINK } from "@/constants/links";
 import styles from "./GovernanceSection.module.scss";
+import { SubstackDialog } from "@/components/Dialogs/SubstackDialog/SubstackDialog";
 
 export default function GovernanceSection() {
   return (
@@ -28,12 +29,12 @@ export default function GovernanceSection() {
               </p>
             </div>
 
-            <div>
-              <a href={SUBSTACK_LINK} target="_blank" rel="noopener noreferrer">
+            <div className={styles.ctaContainer}>
+              <SubstackDialog>
                 <button className={styles.ctaButton}>
                   Subscribe for Updates
                 </button>
-              </a>
+              </SubstackDialog>
 
               <a
                 href={MERKL_LINK}
