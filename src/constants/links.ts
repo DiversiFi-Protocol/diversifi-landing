@@ -10,7 +10,6 @@ export const APP_LINK = "https://app.diversifi.tech";
 
 export const DOC_LINK = "https://docs.diversifi.tech";
 
-// TODO: Belvis
-export const SCHEDULE_DEMO_LINK = "https://calendly.com/stblevins-proton";
+export const SCHEDULE_DEMO_LINK = "https://calendly.com/stephenblevins-bravolabs/30min";
 
 export const SUBSTACK_LINK = "https://diversifi.substack.com/";
