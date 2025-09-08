@@ -1,4 +1,4 @@
-import { MERKL_LINK, SUBSTACK_LINK } from "@/constants/links";
+import { MERKL_LINK } from "@/constants/links";
 import styles from "./GovernanceSection.module.scss";
 import { SubstackDialog } from "@/components/Dialogs/SubstackDialog/SubstackDialog";
 
