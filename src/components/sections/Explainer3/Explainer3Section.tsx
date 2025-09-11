@@ -12,13 +12,13 @@ export default function Explainer3Section() {
         icon: <PieChartIcon />,
         label: "Risk Management",
         description:
-          "Portfolio based reserves with continuous monitoring.",
+          "Portfolio-based reserves with continuous monitoring.",
       },
       {
         icon: <UserIcon />,
         label: "Compliance Ready",
         description:
-          "Transparent reserves third-party attestations, jurisdiction diversification.",
+          "Transparent reserves, third-party attestations, protocol native enforcement capability.",
       },
       {
         icon: <CogIcon />,

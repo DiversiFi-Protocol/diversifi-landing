@@ -29,7 +29,7 @@ export default function Explainer2Section() {
               <div className={styles.solutionSection}>
                 <h3 className={styles.sectionTitle}>THE SOLUTION:</h3>
                 <p className={styles.sectionText}>
-                  DiversiFi is an inoovative stablecoin protocol designed to achieve risk reduction via 
+                  DiversiFi is an innovative stablecoin protocol designed to achieve risk reduction via 
                   real-time monitoring, improve efficiency
                   through automated rebalancing, and scale seamlessly with
                   multichain integration.
