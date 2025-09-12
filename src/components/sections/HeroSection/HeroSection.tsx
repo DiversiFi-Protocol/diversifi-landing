@@ -43,7 +43,9 @@ export default function HeroSection() {
             <h1 className={styles.title}>
               Structured
               <br />
-              <span className={styles.primaryText}>Stability</span>
+              <span className={styles.primaryText}>
+                Stability<span className={styles.super}>™</span>
+              </span>
             </h1>
 
             <p className={styles.subtitle}>

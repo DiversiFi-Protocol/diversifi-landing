@@ -50,6 +50,7 @@ export default function Explainer3Section() {
             <div>
               <h3 className={styles.title}>
                 Institutional-Grade Structured Stability
+                <span className={styles.super}>™</span>
               </h3>
               <p>
                 Professional digital asset reserves with quantified risk
