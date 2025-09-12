@@ -21,7 +21,7 @@ export default function HeroSection() {
         <div className={styles.grid}>
           <div className={styles.leftContent}>
             <div className={styles.labels}>
-              <span className={styles.label}>DFIUSD</span>
+              <span className={styles.label}>DFiUSD</span>
               <a
                 className="flex cursor-pointer hover:underline"
                 href="/docs/diversifi-audit.pdf"
@@ -49,8 +49,7 @@ export default function HeroSection() {
             </h1>
 
             <p className={styles.subtitle}>
-              The engineered stablecoin that DeFi protocols trust as their
-              preferred reserve asset.
+              The preferred reserve asset for DeFi.
             </p>
 
             <div className={styles.ctaButtons}>
@@ -65,7 +64,7 @@ export default function HeroSection() {
             </div>
 
             <p className={styles.additionalInfo}>
-              DiversiFi reduces single-asset risk by backing each DFiUSD token
+              The DiversiFi protocol is designed for resilience by backing each DFiUSD token
               1:1 with a diversified basket of USD-pegged stablecoins. This
               multi-collateral approach creates a more resilient reserve
               designed to minimize depegging risks.

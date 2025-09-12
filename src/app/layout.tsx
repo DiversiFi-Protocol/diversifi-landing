@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "DiversiFi - Structured Stability™ for DeFi",
   description:
-    "The engineered stablecoin that DeFi protocols trust as their preferred reserve asset.",
+    "The preferred reserve asset for DeFi.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -12,25 +12,20 @@ export default function Explainer3Section() {
         icon: <PieChartIcon />,
         label: "Risk Management",
         description:
-          "Modern Portfolio Theory implementation with continuous monitoring.",
+          "Portfolio-based reserves with continuous monitoring.",
       },
       {
         icon: <UserIcon />,
         label: "Compliance Ready",
         description:
-          "Transparent reserves third-party attestations, jurisdiction diversification.",
+          "Transparent reserves, third-party attestations, protocol native enforcement capability.",
       },
       {
         icon: <CogIcon />,
-        label: "Operational Excellence",
+        label: "Robust Infrastructure",
         description:
-          "Non-custodial architecture, 24/7 monitoring, comprehensive audit trails.",
-      },
-      {
-        icon: <CapitalEfficientIcon />,
-        label: "Capital Efficiency",
-        description: "Risk-adjusted returns with instant liquidity.",
-      },
+          "Non-custodial architecture, embedded redundancy, comprehensive audit trails.",
+      }
     ].map(({ icon, label, description }) => (
       <div key={label} className={styles.coreBenefitContainer}>
         {icon}
@@ -52,10 +47,6 @@ export default function Explainer3Section() {
                 Institutional-Grade Structured Stability
                 <span className={styles.super}>™</span>
               </h3>
-              <p>
-                Professional digital asset reserves with quantified risk
-                management.
-              </p>
             </div>
 
             <div className={styles.metricContainer}>

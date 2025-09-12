@@ -27,8 +27,8 @@ export default function Explainer1Section() {
                   </h4>
                   <ul className={styles.list}>
                     <li>
-                      Spreads risk across multiple high-quality stablecoins,
-                      reducing the severity of a single peg failure.
+                      Spreads reserves across multiple high-quality stablecoins,
+                      reducing the impact of a failure of a single reserve asset.
                     </li>
                   </ul>
                 </div>
@@ -51,11 +51,11 @@ export default function Explainer1Section() {
 
               <div className={styles.featureItem}>
                 <div className={styles.featureContent}>
-                  <h4 className={styles.featureTitle}>Crisis Protection</h4>
+                  <h4 className={styles.featureTitle}>Designed for resiliency</h4>
                   <ul className={styles.list}>
-                    <li>Weekend banking risk mitigation</li>
+                    <li>Continuous minting and redemption</li>
                     <li>Emergency rebalancing protocols</li>
-                    <li>5% target reserve surplus</li>
+                    <li>Protocol embedded overcollateralization (105% target)</li>
                   </ul>
                 </div>
               </div>
