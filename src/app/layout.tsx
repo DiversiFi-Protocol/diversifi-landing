@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DiversiFi - Structured Stability for DeFi",
+  title: "DiversiFi - Structured Stability™ for DeFi",
   description:
     "The preferred reserve asset for DeFi.",
   icons: {
