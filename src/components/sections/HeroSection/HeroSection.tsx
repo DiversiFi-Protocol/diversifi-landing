@@ -34,10 +34,10 @@ export default function HeroSection() {
                   <ArrowTopRightOnSquareIcon className="size-3" />
                 </span>
               </a>
-              <span className={styles.badge}>
+              {/* <span className={styles.badge}>
                 <InstitutionalShield className={styles.badgeIcon} />
                 Institutional-Grade Risk Management
-              </span>
+              </span> */}
             </div>
 
             <h1 className={styles.title}>
