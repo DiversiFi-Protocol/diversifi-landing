@@ -3,9 +3,19 @@ import classNames from "classnames";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 
+
 export default function TermsPage() {
   return (
     <main>
+      <style>{`
+        a {
+          color: #00e5ff;
+          text-decoration: underline;
+        }
+        a:hover {
+          color: #1de9b6;
+        }
+      `}</style>
       <Header />
 
       <article className="p-8 pt-20">
