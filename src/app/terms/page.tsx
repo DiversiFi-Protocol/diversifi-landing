@@ -23,7 +23,7 @@ export default function TermsPage() {
           <p>
             These Terms of Service (these “Terms”) explain the terms and conditions by which you may
             access and use our website,{" "}
-            <a color="#00e5ff" href="https://www.diversifi.tech" target="_blank" rel="noreferrer">
+            <a color="#ffd54f" href="https://www.diversifi.tech" target="_blank" rel="noreferrer">
               www.diversifi.tech
             </a>{" "}
             (the “Website”), operated by or on behalf of Diversifi Stables, Inc., inclusive with its
