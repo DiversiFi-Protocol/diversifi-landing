@@ -7,11 +7,6 @@ import Header from "@/components/Header/Header";
 export default function TermsPage() {
   return (
     <main>
-      <style>{`
-        a:hover {
-          color: #1de9b6;
-        }
-      `}</style>
       <Header />
 
       <article className="p-8 pt-20">
@@ -23,7 +18,7 @@ export default function TermsPage() {
           <p>
             These Terms of Service (these “Terms”) explain the terms and conditions by which you may
             access and use our website,{" "}
-            <a color="#ffd54f" href="https://www.diversifi.tech" target="_blank" rel="noreferrer">
+            <a color="#1de9b6" href="https://www.diversifi.tech" target="_blank" rel="noreferrer">
               www.diversifi.tech
             </a>{" "}
             (the “Website”), operated by or on behalf of Diversifi Stables, Inc., inclusive with its
@@ -71,7 +66,7 @@ export default function TermsPage() {
 
           <p>
             Documentation relevant to the Services, the App, and the Protocol are available at{" "}
-            <a color="#00e5ff" href="https://docs.diversifi.tech">docs.diversifi.tech</a> (the “Documentation”). The Protocol itself is not part of the
+            <a color="#1de9b6" href="https://docs.diversifi.tech">docs.diversifi.tech</a> (the “Documentation”). The Protocol itself is not part of the
             Services, and your use of the Protocol is entirely at your own risk. Additionally, the
             third party technologies required to be used or interacted with in order to interact
             with the Protocol, including but not limited to a Wallet (as defined below, and
