@@ -17,11 +17,7 @@ export default function TermsPage() {
 
           <p>
             These Terms of Service (these “Terms”) explain the terms and conditions by which you may
-            access and use our website,{" "}
-            <a color="#1de9b6" href="https://www.diversifi.tech" target="_blank" rel="noreferrer">
-              www.diversifi.tech
-            </a>{" "}
-            (the “Website”), operated by or on behalf of Diversifi Stables, Inc., inclusive with its
+            access and use our website, https://diversifi.tech (the “Website”), operated by or on behalf of Diversifi Stables, Inc., inclusive with its
             affiliates, the “Company”, “we” or “us”), our App (as defined below), and any other
             Services provided by the Company, including any related content, tools, documentation,
             features and functionality collectively the “Services”.
@@ -65,8 +61,8 @@ export default function TermsPage() {
           </p>
 
           <p>
-            Documentation relevant to the Services, the App, and the Protocol are available at{" "}
-            <a color="#1de9b6" href="https://docs.diversifi.tech">docs.diversifi.tech</a> (the “Documentation”). The Protocol itself is not part of the
+            Documentation relevant to the Services, the App, and the Protocol are available at
+            https://docs.diversifi.tech (the “Documentation”). The Protocol itself is not part of the
             Services, and your use of the Protocol is entirely at your own risk. Additionally, the
             third party technologies required to be used or interacted with in order to interact
             with the Protocol, including but not limited to a Wallet (as defined below, and
@@ -624,7 +620,7 @@ export default function TermsPage() {
 
           <p>
             You have the right to opt-out and not be bound by the arbitration provisions set forth in
-            these Terms by sending written notice of your decision to opt-out to <a color="#00e5ff" href="mailto:legal@bravolabs.xyz">legal@bravolabs.xyz</a>.
+            these Terms by sending written notice of your decision to opt-out to legal@bravolabs.xyz.
             The notice must be sent to the Company within thirty (30) days of your first accessing the
             Services or agreeing to these Terms; otherwise you shall be bound to arbitrate disputes on
             a non-class basis in accordance with these Terms. If you opt out of only the arbitration
@@ -733,8 +729,7 @@ export default function TermsPage() {
           </h3>
 
           <p>
-            You may contact us regarding the Services or these Terms by e-mail at{" "}
-            <a color="#00e5ff" href="mailto:support@bravolabs.xyz">support@bravolabs.xyz</a>.
+            You may contact us regarding the Services or these Terms by e-mail at support@bravolabs.xyz.
           </p>
         </div>
       </article>
