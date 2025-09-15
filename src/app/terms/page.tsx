@@ -629,7 +629,7 @@ export default function TermsPage() {
 
           <p>
             You have the right to opt-out and not be bound by the arbitration provisions set forth in
-            these Terms by sending written notice of your decision to opt-out to <b>legal@bravolabs.xyz</b>.
+            these Terms by sending written notice of your decision to opt-out to <a color="#00e5ff" href="mailto:legal@bravolabs.xyz">legal@bravolabs.xyz</a>.
             The notice must be sent to the Company within thirty (30) days of your first accessing the
             Services or agreeing to these Terms; otherwise you shall be bound to arbitrate disputes on
             a non-class basis in accordance with these Terms. If you opt out of only the arbitration
