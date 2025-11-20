@@ -59,6 +59,12 @@ export default function Header() {
                 <button className={styles.ctaButton}>Launch App</button>
               </NavigateOutDialog>
             </div>
+            {/* Merkl link */}
+            <div>
+              <NavigateOutDialog href={MERKL_LINK}>
+                <button className={styles.ctaButton}>Incentives</button>
+              </NavigateOutDialog>            
+            </div>
           </nav>
 
           {/* Mobile menu button */}
