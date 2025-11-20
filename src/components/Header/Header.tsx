@@ -60,11 +60,11 @@ export default function Header() {
               </NavigateOutDialog>
             </div>
             {/* Merkl link */}
-            <div>
+            {/* <div>
               <NavigateOutDialog href={MERKL_LINK}>
                 <button className={styles.ctaButton}>Incentives</button>
               </NavigateOutDialog>            
-            </div>
+            </div> */}
           </nav>
 
           {/* Mobile menu button */}
